@@ -6,6 +6,7 @@ public class LogisticPredictor implements lPredictor {
     public LogisticPredictor(double[] w){
         this.w=Arrays.copyOf(w, w.length);
     }
+    @Override
     public double predict(double[] a){
         double result=0;
         double x=0;

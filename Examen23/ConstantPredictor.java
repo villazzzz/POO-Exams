@@ -5,6 +5,7 @@ public class ConstantPredictor implements lPredictor {
     public ConstantPredictor() {
         this.ct=1;
     }
+    @Override
     public double predict(double[] entrada){
         return this.ct;
     }

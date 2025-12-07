@@ -11,7 +11,7 @@ public class Product implements CartItem {
     public String getName(){
         return this.name;
     }
-
+    @Override
     public double getPrice(){
         return this.price;
     }

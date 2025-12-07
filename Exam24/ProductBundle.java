@@ -7,7 +7,7 @@ public class ProductBundle implements CartItem {
         this.items=new CartItem[40];
         this.count=0;
     }
-
+    @Override
     public double getPrice(){
         double total=0;
         for(int i=0; i<this.count; i++){
